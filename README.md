@@ -11,4 +11,11 @@
 $ docker-compose up
 ```
 
-Open [http://localhost:8081](http://localhost:8081) to view it in the browser.
+### Development
+```
+$ docker-compose up mongodb
+node-express-mongodb $ npm run start
+react-crud-web-api $ npm run start
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
